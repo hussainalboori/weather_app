@@ -1,17 +1,24 @@
-# weather_app
+# 🌤️ Weather App (Day 1 / 10)
 
-A new Flutter project.
+Welcome to **Day 1** of my **10 Days, 10 Apps Challenge**! 🚀
 
-## Getting Started
+This is a clean, minimal Weather App built with Flutter. It automatically detects your current city and displays the real-time temperature and weather conditions.
 
-This project is a starting point for a Flutter application.
+## 🌟 Features
+- **Auto-Location**: Uses `geolocator` and `geocoding` to find your current city automatically.
+- **Real-Time Data**: Fetches live weather information from the [OpenWeatherMap API](https://openweathermap.org/).
+- **Dynamic Icons**: Instead of heavy animations, it dynamically loads the official, pixel-perfect weather condition icons straight from OpenWeatherMap.
 
-A few resources to get you started if this is your first Flutter project:
+## 💡 Inspiration & "The Twist"
+This app was heavily inspired by the fantastic [Minimal Weather App tutorial by Mitch Koko](https://www.youtube.com/watch?v=yLtpMqvMgdY&list=PLlvRDpXh1Se68K3r2NUU5sGhyRPDPBPSQ).
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+**My Own Twist:** While the original tutorial relies on downloaded Lottie animations for the weather states, I opted for a more lightweight, dynamic approach. This app directly parses the `icon` code returned by the API and renders the official 2D OpenWeatherMap icons across the network!
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Built With
+- **Flutter & Dart**
+- **http** (for API requests)
+- **geolocator** & **geocoding** (for location services)
+- **OpenWeatherMap API**
+
+---
+*Stay tuned for Day 2!* 💻✨
