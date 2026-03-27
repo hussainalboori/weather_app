@@ -41,7 +41,16 @@ class _WeatherPageState extends State<WeatherPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
              Text(_weather?.cityName ?? "Loading City ..."),
-             if (_weather != null) Text('${_weather?.temp.round()}°C')
+             if (_weather != null) ...[
+               Image.network(
+                 'https://openweathermap.org/img/wn/${_weather!.iconId}@2x.png',
+                 width: 150,
+                 height: 150,
+                 fit: BoxFit.cover,
+               ),
+               Text(_weather!.mainCondition),
+               Text('${_weather!.temp.round()}°C')
+             ]
           ],
         ),
       )
