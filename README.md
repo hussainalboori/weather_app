@@ -1,8 +1,6 @@
-# 🌤️ Weather App (Day 1 / 10)
+# 🌤️ Weather App
 
-Welcome to **Day 1** of my **10 Days, 10 Apps Challenge**! 🚀
-
-This is a clean, minimal Weather App built with Flutter. It automatically detects your current city and displays the real-time temperature and weather conditions.
+A clean, minimal Weather App built with Flutter. It automatically detects your current city and displays the real-time temperature and weather conditions.
 
 ## 🌟 Features
 - **Auto-Location**: Uses `geolocator` and `geocoding` to find your current city automatically.
@@ -19,6 +17,3 @@ This app was heavily inspired by the fantastic [Minimal Weather App tutorial by 
 - **http** (for API requests)
 - **geolocator** & **geocoding** (for location services)
 - **OpenWeatherMap API**
-
----
-*Stay tuned for Day 2!* 💻✨
